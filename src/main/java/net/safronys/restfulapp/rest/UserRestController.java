@@ -14,7 +14,7 @@ import org.springframework.web.util.UriBuilder;
 import java.util.List;
 
 @RestController
-@RequestMapping(name = "/api/users")
+@RequestMapping(name = "api/users")
 public class UserRestController {
 
     private UserService userService;
